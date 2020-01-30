@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+  margin: 0;
+}
+
+p{padding-bottom: 30px;}
+
+.grad5 {
+  height: 100vh;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(blueviolet, pink, red); /* Standard syntax (must be last) */
+}
+
+.grad4 {
+  height: 100vh;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(Blue, green, white); /* Standard syntax (must be last) */
+}
+
+.grad3 {
+  height: 100vh;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(Grey, rgb(228, 135, 151)); /* Standard syntax (must be last) */
+}
+
+.grad2 {
+  height: 100%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(orange, black, grey); /* Standard syntax (must be last) */
+  background-size: cover;
+}
+
+
+.grad1 {
+  height: 100vh;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image: url("hd-1148936_640.jpg")
+}
+
+*{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+
+h1 {
+    color: yellowgreen
+}
+
+.makecenter {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(0, 0, 90); */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #40D231;
+  }
+  
+  .active {
+    background-color: #40D231;
+  }
