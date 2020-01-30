@@ -34,7 +34,11 @@ p{padding-bottom: 30px;}
 .grad1 {
   height: 100vh;
   /* background-color: red; For browsers that do not support gradients */
-  background-image: url("hd-1148936_640.jpg")
+  background-image: url("hd-1148936_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: fill;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 *{
